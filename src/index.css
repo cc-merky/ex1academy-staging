@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  /* Add any other styling you want for the sticky navbar */
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  font-family: 'Red Hat Display', sans-serif;
+}

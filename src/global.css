@@ -1,0 +1,450 @@
+/* Add this to your CSS */
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff; /* Replace with your desired background color */
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 27, 118, 1),
+    rgba(37, 107, 219, 1)
+  );
+}
+
+/* custom-grad.css */
+.custom-gradient {
+  background: linear-gradient(
+    222.64deg,
+    #b4e8ff -4.8%,
+    rgba(208, 243, 224, 0.46218) 52.92%,
+    #fffacd 102.53%
+  );
+}
+
+.instructor {
+  background: linear-gradient(
+    90.59deg,
+    #577cff 0.36%,
+    #91d9df 49.58%,
+    #f4ffb1 102.86%
+  );
+}
+
+.bg-custom-blue {
+  background-color: rgba(2, 27, 118, 1);
+}
+
+.bg-custom-button {
+  background: linear-gradient(90deg, rgba(246, 133, 0, 1), rgba(210, 76, 0, 1));
+}
+
+.custom-level {
+  background: linear-gradient(90deg, rgba(37, 107, 219, 0.5));
+}
+
+.custom-blue {
+  background-color: rgba(124, 248, 254, 1);
+}
+
+.background-card {
+  background: linear-gradient(245.76deg, #e3fbff 5.48%, #f8f8d2 100%);
+}
+
+.custom-course-card {
+  background: rgba(231, 245, 255, 0.1);
+}
+.custom-grow-background {
+  background: rgba(234, 246, 255, 1);
+}
+
+.custom-description-background {
+  background: rgba(214, 214, 214, 1);
+}
+
+.custom-course-background {
+  background: linear-gradient(
+    245.76deg,
+    rgba(180, 232, 255, 1) 5.48%,
+    rgba(208, 243, 224, 0.4622) 100%
+  );
+}
+
+.bg-custom-gradient-course {
+  background: linear-gradient(
+    90deg,
+    rgba(97, 158, 255, 1) 100%,
+    rgba(0, 98, 255, 1) 100%
+  );
+}
+
+/* styles.css (or your custom CSS file) */
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 27, 118, 1),
+    rgba(37, 107, 219, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Set text color to transparent */
+}
+
+/* styles.css (or your custom CSS file) */
+.gradient-text-blue {
+  background: linear-gradient(90deg, #0264ff, #0f59cd, #5f9dff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Set text color to transparent */
+}
+
+/* styles.css (or your custom CSS file) */
+.gradient-text-combined {
+  background: linear-gradient(
+    90deg,
+    #0264ff,
+    #0f59cd,
+    #5f9dff,
+    #6100ff,
+    #a400cd,
+    #7203ff,
+    #00b2ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Set text color to transparent */
+}
+
+/* styles.css (or your custom CSS file) */
+.gradient-text-combined {
+  background: linear-gradient(
+    90deg,
+    #0264ff,
+    #0f59cd,
+    #5f9dff,
+    #6100ff,
+    #a400cd,
+    #7203ff,
+    #00b2ff,
+    #577cff,
+    #79f7ff,
+    #f4ffb1
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Set text color to transparent */
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  /*mad*/
+  div.max-w-6xl.mx-auto.mt-12.px-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lg\:w-2\/3.w-full.p-4.bg-gray-100 {
+    width: 59.9%;
+  }
+  .lg\:w-2\/3.w-full.p-4.bg-gray-100 {
+    padding-top: 7.3%;
+  
+  }
+  .space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: 0;
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  }
+  
+  h1.pb-8.lg\:text-6xl.text-4xl.font-bold.md\:flex.gradient-text-combined {
+    padding-top: 8%;
+    font-size: 70px;
+  }
+  
+  p.pb-4.lg\:text-xl.text-md {
+    font-size: 24px;
+    padding-bottom: 8%;
+  }
+  
+  .w-full.relative {
+    height: 100vh;
+  }
+  
+  img.h-full.object-cover.lg\:mt-0.mt-3.lg\:w-full.w-2\/3.mx-auto {
+    width: 71vh;
+    max-height: 10%;
+    object-fit: contain;
+  }
+  .max-w-6xl.mx-auto.lg\:flex.px-4 {
+    max-width: 75rem;
+  }
+  
+  button.bg-custom-button.hover\:bg-custom-button.text-white.py-4.px-8.rounded-lg.lg\:w-60.w-full {
+    font-size: 24px;
+    /* padding-right: 50%; */
+  }
+  
+  button.bg-custom-button.hover\:bg-custom-button.text-white.py-4.px-8.rounded-lg.lg\:w-60.w-full {
+    width: 56%;
+  }
+  
+  .lg\:absolute.max-w-6xl.mx-auto.flex.flex-wrap.lg\:bottom-12.left-0.right-0.space-y-2.lg\:space-y-0.lg\:mt-0.mt-3.px-4 {
+    justify-content: right;
+    max-width: 72rem;
+  }
+  
+  .max-w-6xl {
+    
+  }
+  
+  .lg\:w-2\/3.w-full.p-4.bg-gray-100 {
+    width: 59.9%;
+    padding-top: 10.3%;
+  }
+  
+  p.text-center.lg\:text-sm.text-xs {
+    font-size: 17px;
+    line-height: 1.25rem;
+  }
+  
+  h1.text-center.lg\:text-6xl.text-2xl.font-bold.mb-4.gradient-text {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  h1.pb-2.text-3xl.font-bold.text-center.lg\:text-5xl.gradient-text-blue {
+    font-size: 70px;
+    padding-top: 10%;
+  }
+  
+  p.mb-5.text-sm.text-center.lg\:text-xl {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 5%;
+  }
+  
+  .mt-12.text-center.mb-9 {
+    padding-bottom: 5%;
+  }
+  
+  h1.text-center.text-5xl.font-bold.pb-4.relative {
+    /* padding-top: 8%; */
+    font-size: 70px;
+  }
+  span.text-transparent.bg-clip-text.bg-gradient-to-r.gradient-text-combined.absolute.top-0.left-0.h-full.w-full {
+    /* padding-top: 8%; */
+  }
+  
+  p.text-center.mb-5.text-white {
+    font-size: 24px;
+    padding-bottom: 2%;
+    padding-top: 0.5%;
+  }
+  
+  .py-2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .container.max-w-6xl.mx-auto.pb-12 {
+    padding-bottom: 10%;
+    padding-top: 7%;
+  }
+  
+  .flex.items-center.justify-center.md\:items-center {
+    justify-content: left;
+  }
+  
+  button.px-4.py-2.font-bold.text-white.rounded.bg-custom-button.hover\:bg-custom-button {
+    border-radius: 10px;
+  }
+  
+  
+  
+  
+  
+  .lg\:w-2\/3.w-full.p-4.bg-gray-100 {
+    padding-top: 0px;
+  }
+  
+  /* .p-8.bg-\[\#256bdb\].text-white.mb-3.flex.items-center .p-8.bg-\[\#021b76\].text-white.mb-3.flex.items-center .p-8.bg-\[\#061445\].text-white.mb-3.flex.items-center{
+    padding-top: 50%;
+    padding-bottom: 50%;
+  } */
+  p {
+    font-size: 13.14px;
+  }
+  
+  p.pb-3.font-semibold {
+    font-size: 18.77px;
+  }
+  
+  .lg\:w-2\/3.w-full.p-4.bg-gray-100 {
+    padding-top: 1.7%;
+  }
+  
+  .border-solid.border-2.border-sky-500.md\:p-5 {
+    border-radius: 10px;
+  }
+  
+  p.lg\:text-6xl.text-4xl.font-bold.text-white {
+    font-size: 70px;
+  }
+  p.pb-4.text-white.lg\:text-xl.text-base.sm\:text-sm {
+    padding-top: 5%;
+    font-size: 24px;
+  }
+  
+  p.py-3.font-bold.text-center {
+    font-size: 150%;
+  }
+  
+  img.duration-300.hover\:brightness-110.transition-brightness {
+    border-radius: 5px;
+  }
+  
+  p.py-3.font-bold.text-center {
+    padding-top: 2.75rem;
+  }
+  
+  .h-full.p-3.bg-white {
+    border-radius: 5px;
+  }
+  
+  .flex.justify-between.p-4 {
+    padding-top: 11%;
+  }
+  
+  img.duration-300.hover\:brightness-110.transition-brightness {
+    height: 40.32vh;
+  }
+  
+  .h-full.p-3.bg-white {
+    padding: 4%;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  button.bg-custom-button.hover\:bg-custom-button.text-white.py-4.px-8.rounded-lg.lg\:w-60.w-full {
+    border-radius: 10px;
+  }
+  
+  .relative.h-96 {
+    display: none;
+  }
+  
+  .lg\:w-3\/5.h-\[500px\].object-fill.bg-slate-300 {
+    border-radius: 10px;
+  }
+  
+  img.w-full.h-full.object-cover.lg\:mt-0.md\:mt-8 {
+    border-radius: 10px;
+  }
+  
+  img.h-full.object-cover.lg\:mt-0.md\:mt-8 {
+    height: 113.3%;
+  }
+  
+  .custom-description-background {
+    background-color: #fff;
+  }
+  
+  a.text-lg.text-blue-500.hover\:text-blue-500.active {
+    font-weight: 900;
+  }
+  
+  svg.w-\[40px\].h-\[40px\].text-\[\#e46601\] {
+    height: 22px;
+  }
+  
+  .lg\:flex.shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 54px -2px rgb(0 0 0 / 0.1);
+  }
+  
+  .lg\:flex.shadow-md {
+    padding: 6%;
+  }
+
+  .lg\:w-1\/2.w-full.p-4.bg-gray-100 {
+    display: none;
+}
+
+button.w-24.text-center.bg-white.lg\:text-sm.text-xs.py-3.rounded-lg.text-blue-400 {
+  color: #1A50B8;
+}
+
+.max-w-6xl.p-4.mx-auto.bg-white {
+  border-radius: 10px;
+}
+
+.flex.justify-between.px-4.lg\:px-0 {
+  padding-right: 81px;
+}
+
+ul.bg-gray-300 {
+  background: none;
+}
+
+.custom-course-background {
+  background: linear-gradient( 245.76deg, rgb(255 255 255) 5.48%, rgb(222 95 1 / 5%) 100% );
+}
+
+h1.text-4xl.font-bold.mb-4 {
+  font-weight: 500;
+}
+
+h1.text-3xl.font-bold.mb-4 {
+  font-weight: 100;
+}
+
+h1.text-4xl.font-bold.py-3 {
+  font-weight: 500;
+}
+/* 
+.max-w-6xl.p-4.mx-auto.bg-white {
+  margin-bottom: 58px;
+} */
+
+.max-w-6xl.p-4.mx-auto.bg-white {
+  margin-bottom: 1%;
+}
+
+.lg\:w-1\/2.w-full.px-4.py-5.mx-auto.bg-white.shadow-sm {
+  --tw-shadow: 0 100px 40px 0 rgb(0 0 0 / 0.05);
+}
+
+h1.font-bold.text-red-700.lg\:text-4xl {
+  font-weight: 500;
+}
+
+h1.text-4xl.font-bold.text-red-700 {
+  font-weight: 500;
+}
+
+.background-card {
+  background: linear-gradient(245.76deg, #e3fbff 90%, #f8f8d2 100%);
+}
